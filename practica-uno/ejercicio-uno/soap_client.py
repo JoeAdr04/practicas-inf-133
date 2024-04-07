@@ -1,6 +1,9 @@
 from zeep import Client
-
 client = Client('http://localhost:8000')
+
+#Nota importante: al ejecutar las solicitudes se tardo demasiado en dar respuestas
+
+
 
 respuesta = client.service.Sumar(a=2, b=3)
 print(respuesta)

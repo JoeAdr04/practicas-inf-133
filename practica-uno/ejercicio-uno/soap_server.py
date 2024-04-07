@@ -1,6 +1,8 @@
 from http.server import HTTPServer
 from pysimplesoap.server import SoapDispatcher, SOAPHandler
 
+#Nota importante: al ejecutar las solicitudes se tardo demasiado en dar respuestas
+
 def sumar(a,b):
     return a+b
 
